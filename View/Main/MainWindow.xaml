@@ -1,0 +1,29 @@
+﻿<Window x:Class="KNP_Urban.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:KNP_Urban"
+        xmlns:vm="clr-namespace:KNP_Urban.ViewModel"
+        xmlns:conv="clr-namespace:KNP_Urban.View.Converter" 
+        Title="Aplikace" 
+        Height="{Binding Source={StaticResource Settings}, Path=MainWindowHeight, Mode=TwoWay}" 
+        Width="{Binding Source={StaticResource Settings}, Path=MainWindowWidth, Mode=TwoWay}"
+        Left="{Binding Source={StaticResource Settings}, Path=MainWindowLeft, Mode=TwoWay}"
+        Top="{Binding Source={StaticResource Settings}, Path=MainWindowTop, Mode=TwoWay}">
+    <Window.Resources>
+        <conv:DoNothingConverter x:Key="testConverter" />
+        <conv:DoPNG x:Key="PNG"></conv:DoPNG>
+    </Window.Resources>
+    <Window.DataContext>
+        <vm:MainViewModel />
+    </Window.DataContext>
+    <Grid>
+        <Button Name="nuzky" Width="50" Height="50" Content="nuzky" Margin="409,79,133,240" Command="{Binding _hrej}" CommandParameter="{Binding ElementName=nuzky, Path=Content}"></Button>
+        <Button Name="kamen" Width="50" Height="50" Content="kamen" Margin="330,79,212,240" Command="{Binding _hrej}" CommandParameter="{Binding ElementName=kamen, Path=Content}"></Button>
+        <Button Name="papir" Width="50" Height="50" Content="papir" Margin="493,79,49,240" Command="{Binding _hrej}" CommandParameter="{Binding ElementName=papir, Path=Content}"></Button>
+        <Image Width="100" Height="100" Source="{Binding PObrazek, Converter={StaticResource PNG}}" Margin="98,159,394,110"></Image>
+        <Image Width="100" Height="100" Source="{Binding UObrazek, Converter={StaticResource PNG}}" Margin="359,159,133,110"></Image>
+        <TextBlock Height="50" Width="50" Text="{Binding Banka}" Margin="409,10,133,309"></TextBlock>
+        <TextBox Height="50" Width="50" Text="{Binding Sazka}" Margin="510,160,32,159"></TextBox>
+        <TextBlock Height="50" Width="250" Text="{Binding Hodnoceni}" Margin="130,309,212,10"></TextBlock>
+    </Grid>
+</Window>

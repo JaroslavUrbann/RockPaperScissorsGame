@@ -1,0 +1,16 @@
+X:\2\KNP_Urban\KNP_Urban\bin\Debug\SPSSE Application.exe.config
+X:\2\KNP_Urban\KNP_Urban\bin\Debug\SPSSE Application.exe
+X:\2\KNP_Urban\KNP_Urban\bin\Debug\SPSSE Application.pdb
+X:\2\KNP_Urban\KNP_Urban\obj\Debug\View\Main\MainWindow.g.cs
+X:\2\KNP_Urban\KNP_Urban\obj\Debug\App.g.cs
+X:\2\KNP_Urban\KNP_Urban\obj\Debug\GeneratedInternalTypeHelper.g.cs
+X:\2\KNP_Urban\KNP_Urban\obj\Debug\SPSSE Application_MarkupCompile.cache
+X:\2\KNP_Urban\KNP_Urban\obj\Debug\SPSSE Application_MarkupCompile.lref
+X:\2\KNP_Urban\KNP_Urban\obj\Debug\App.baml
+X:\2\KNP_Urban\KNP_Urban\obj\Debug\View\Main\MainWindow.baml
+X:\2\KNP_Urban\KNP_Urban\obj\Debug\SPSSE Application.g.resources
+X:\2\KNP_Urban\KNP_Urban\obj\Debug\KNP_Urban.Properties.Resources.resources
+X:\2\KNP_Urban\KNP_Urban\obj\Debug\KNP_Urban.csproj.GenerateResource.Cache
+X:\2\KNP_Urban\KNP_Urban\obj\Debug\SPSSE Application.exe
+X:\2\KNP_Urban\KNP_Urban\obj\Debug\SPSSE Application.pdb
+X:\2\KNP_Urban\KNP_Urban\obj\Debug\KNP_Urban.csprojResolveAssemblyReference.cache
